@@ -2,6 +2,8 @@ package test;
 
 import first.F_RotateArray;
 import first.G_Fibonacci;
+import second.A_Double;
+import second.B_PrintDigit;
 
 public class Test {
     public static void main(String[] args) {
@@ -9,7 +11,19 @@ public class Test {
         F_RotateArray f = new F_RotateArray();
         int i = f.minNumberInRotateArray(array);
         System.out.println(i);*/
-        test1();
+        test3();
+
+    }
+
+    public static void test3(){
+        B_PrintDigit b = new B_PrintDigit();
+        b.printToMaxOfNDigits(4);
+
+    }
+
+    public static void test2(){
+        A_Double a = new A_Double();
+        System.out.println(a.Power(2.5,2));
 
     }
 
